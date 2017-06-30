@@ -2,14 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Salamah &amp; Ridzwan</title>
-    <description>Another fine responsive  
-site template freebie  
-crafted by [HTML5 UP](http://html5up.net)
-</description>
+    <description>Salamah &amp; Ridzwan are getting married on 12.08.2017!</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 28 Jun 2017 00:21:15 -0400</pubDate>
-    <lastBuildDate>Wed, 28 Jun 2017 00:21:15 -0400</lastBuildDate>
+    <pubDate>Fri, 30 Jun 2017 01:44:07 -0400</pubDate>
+    <lastBuildDate>Fri, 30 Jun 2017 01:44:07 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
   </channel>

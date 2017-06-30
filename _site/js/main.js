@@ -99,9 +99,9 @@
 
       $banner.scrollex({
         bottom:		$header.outerHeight() + 1,
-        terminate:	function() { $header.removeClass('alt'); },
-        enter:		function() { $header.addClass('alt'); },
-        leave:		function() { $header.removeClass('alt'); }
+        terminate:	function() { $header.removeClass('alt'); $('.menuToggle').removeClass('alt'); },
+        enter:		function() { $header.addClass('alt'); $('.menuToggle').addClass('alt'); },
+        leave:		function() { $header.removeClass('alt'); $('.menuToggle').removeClass('alt'); }
       });
     }
 
