@@ -15,6 +15,7 @@ section:
   memories: "#memories"
   photo album: "#photo-album"
   event: "#event"
+  registry: "#registry"
   rsvp: "#rsvp"
 social:
   facebook-official: https://facebook.com/satuhearty
