@@ -817,6 +817,9 @@ body.is-loading #banner:after { opacity: 1; }
   .slider-nav { width: 700px; height: 119px; margin: auto; }
   .slider-nav .slick-slide { padding: 0 10px; }
   .slider-nav .slick-track { height: 119px; } }
+/* Registry */
+#registy { padding-bottom: 1em; }
+
 /* RSVP */
 #rsvp .form-group { margin: 2em 1em; }
 
