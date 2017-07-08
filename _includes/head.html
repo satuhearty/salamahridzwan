@@ -1,8 +1,25 @@
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
   <meta name="keywords" content="Salamah, Salleh, Ridzwan, marriage, wedding" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@salamahridzwan">
+  <meta name="twitter:creator" content="@salamahridzwan">
+  <meta name="twitter:title" content="{{site.title}}">
+  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:url" content="http://www.salamahridzwan.com">
+  <meta name="twitter:image:src" content="http://www.salamahridzwan.com/images/fb-icon.jpg">
+  <meta property="og:title" content="{{site.title}}" />
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:image" content="http://www.salamahridzwan.com/images/fb-icon.jpg">
+  <meta property="og:image:secure_url" content="https://secure.salamahridzwan.com/images/fb-icon.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:video:width" content="400" />
+  <meta property="og:video:height" content="300" />
+  <meta property="og:url" content="http://www.salamahridzwan.com" />
+  <meta property="og:type" content="website"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <link rel="shortcut icon" href="images/sr.png">
   <!--[if lte IE 8]><script src="{{ "/js/ie/html5shiv.js" | prepend: site.baseurl }}"></script><![endif]-->
