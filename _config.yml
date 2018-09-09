@@ -8,7 +8,7 @@ owner: Your Name # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: your-email@domain.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://satuhearty.github.io/salamahridzwan/" # the base hostname & protocol for your site
 section:
   bride & groom: "#about"
   our story: "#our-story"
