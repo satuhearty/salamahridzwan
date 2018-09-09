@@ -1,2 +1,2 @@
 # salamahridzwan
-Wedding website for Salamah &amp; Ridzwan
+Salamah & Ridzwan's wedding website.
