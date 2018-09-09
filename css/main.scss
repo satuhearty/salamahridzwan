@@ -8,8 +8,8 @@ $baseurl: '{{ site.baseurl }}/images';
 @import 'libs/functions';
 @import 'libs/mixins';
 @import 'font-awesome.min.css';
-@import url('http://fonts.googleapis.com/css?family=Merriweather:400,400italic,600,600italic,800,800italic');
-@import url('http://fonts.googleapis.com/css?family=Sacramento:400,300,300italic,400italic,700,700italic,900,900italic');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400italic,600,600italic,800,800italic');
+@import url('https://fonts.googleapis.com/css?family=Sacramento:400,300,300italic,400italic,700,700italic,900,900italic');
 @import 'libs/skel';
 
 @include skel-breakpoints((
